@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin-top: 0;}
+
+body {background-color: rgb(255, 255, 255);}
+
+.wrapper {max-width: 1000px;
+margin: auto;
+background-color: lightgray
+;
+min-height: 500px;}
+.google:hover { color: lightskyblue;
+font-weight: bold;
+}
+
+.home:active {color: red;
+font-style: italic;}
+
+.git:visited {color: yellow;}
+
+
+#input::placeholder  {color: rgb(0, 0, 0);
+font-size: 18px;}
+
+#input:focus::placeholder {color: green;
+font-size: 20px;}
+
+nav ul { display: flex;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+nav {background-color: royalblue;
+padding-top: 10px;
+padding-bottom: 10px;}
+
+nav a:hover { background-color: darkcyan;}
+
+nav a { 
+    text-align: center;
+  padding: 3px 16px;
+  margin: 0px 10px;
+    text-decoration: none;
+color: white;
+}
+nav input {padding: 0px 16px;
+    margin: 0px 10px; }
+
+    input:focus { border: skyblue solid 5px;}
+
+.currentPage a { background-color: skyblue;}
+
+
+.eerst {background-color: snow;
+padding-bottom: 20px;}
+
